@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="0" name="org.tesji.rest.HelloWorldIT" time="0.319" errors="2" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/eduardocastillo/Documents/REST_TESJI/HelloWorldREST"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="basedir" value="/Users/eduardocastillo/Documents/REST_TESJI/HelloWorldREST"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="surefire.real.class.path" value="/Users/eduardocastillo/Documents/REST_TESJI/HelloWorldREST/target/surefire/surefirebooter9135993290901736695.jar"/>
+    <property name="java.io.tmpdir" value="/var/folders/b5/z63f886s6lq8qq0yplxlwnjm0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/eduardocastillo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="surefire.test.class.path" value="/Users/eduardocastillo/Documents/REST_TESJI/HelloWorldREST/target/test-classes:/Users/eduardocastillo/Documents/REST_TESJI/HelloWorldREST/target/classes:/Users/eduardocastillo/.m2/repository/org/apache/cxf/cxf-rt-frontend-jaxrs/3.1.18/cxf-rt-frontend-jaxrs-3.1.18.jar:/Users/eduardocastillo/.m2/repository/org/apache/cxf/cxf-core/3.1.18/cxf-core-3.1.18.jar:/Users/eduardocastillo/.m2/repository/org/codehaus/woodstox/woodstox-core-asl/4.4.1/woodstox-core-asl-4.4.1.jar:/Users/eduardocastillo/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar:/Users/eduardocastillo/.m2/repository/org/apache/ws/xmlschema/xmlschema-core/2.2.3/xmlschema-core-2.2.3.jar:/Users/eduardocastillo/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar:/Users/eduardocastillo/.m2/repository/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar:/Users/eduardocastillo/.m2/repository/org/apache/cxf/cxf-rt-transports-http/3.1.18/cxf-rt-transports-http-3.1.18.jar:/Users/eduardocastillo/.m2/repository/org/apache/cxf/cxf-rt-rs-client/3.1.18/cxf-rt-rs-client-3.1.18.jar:/Users/eduardocastillo/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.8.6/jackson-core-asl-1.8.6.jar:/Users/eduardocastillo/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.8.6/jackson-mapper-asl-1.8.6.jar:/Users/eduardocastillo/.m2/repository/org/codehaus/jackson/jackson-jaxrs/1.8.6/jackson-jaxrs-1.8.6.jar:/Users/eduardocastillo/.m2/repository/org/springframework/spring-web/4.1.9.RELEASE/spring-web-4.1.9.RELEASE.jar:/Users/eduardocastillo/.m2/repository/org/springframework/spring-aop/4.1.9.RELEASE/spring-aop-4.1.9.RELEASE.jar:/Users/eduardocastillo/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/eduardocastillo/.m2/repository/org/springframework/spring-beans/4.1.9.RELEASE/spring-beans-4.1.9.RELEASE.jar:/Users/eduardocastillo/.m2/repository/org/springframework/spring-context/4.1.9.RELEASE/spring-context-4.1.9.RELEASE.jar:/Users/eduardocastillo/.m2/repository/org/springframework/spring-expression/4.1.9.RELEASE/spring-expression-4.1.9.RELEASE.jar:/Users/eduardocastillo/.m2/repository/org/springframework/spring-core/4.1.9.RELEASE/spring-core-4.1.9.RELEASE.jar:/Users/eduardocastillo/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/eduardocastillo/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/eduardocastillo/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.13.4"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/eduardocastillo"/>
+    <property name="user.timezone" value="America/Mexico_City"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="eduardocastillo"/>
+    <property name="java.class.path" value="/Users/eduardocastillo/Documents/REST_TESJI/HelloWorldREST/target/test-classes:/Users/eduardocastillo/Documents/REST_TESJI/HelloWorldREST/target/classes:/Users/eduardocastillo/.m2/repository/org/apache/cxf/cxf-rt-frontend-jaxrs/3.1.18/cxf-rt-frontend-jaxrs-3.1.18.jar:/Users/eduardocastillo/.m2/repository/org/apache/cxf/cxf-core/3.1.18/cxf-core-3.1.18.jar:/Users/eduardocastillo/.m2/repository/org/codehaus/woodstox/woodstox-core-asl/4.4.1/woodstox-core-asl-4.4.1.jar:/Users/eduardocastillo/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar:/Users/eduardocastillo/.m2/repository/org/apache/ws/xmlschema/xmlschema-core/2.2.3/xmlschema-core-2.2.3.jar:/Users/eduardocastillo/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar:/Users/eduardocastillo/.m2/repository/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar:/Users/eduardocastillo/.m2/repository/org/apache/cxf/cxf-rt-transports-http/3.1.18/cxf-rt-transports-http-3.1.18.jar:/Users/eduardocastillo/.m2/repository/org/apache/cxf/cxf-rt-rs-client/3.1.18/cxf-rt-rs-client-3.1.18.jar:/Users/eduardocastillo/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.8.6/jackson-core-asl-1.8.6.jar:/Users/eduardocastillo/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.8.6/jackson-mapper-asl-1.8.6.jar:/Users/eduardocastillo/.m2/repository/org/codehaus/jackson/jackson-jaxrs/1.8.6/jackson-jaxrs-1.8.6.jar:/Users/eduardocastillo/.m2/repository/org/springframework/spring-web/4.1.9.RELEASE/spring-web-4.1.9.RELEASE.jar:/Users/eduardocastillo/.m2/repository/org/springframework/spring-aop/4.1.9.RELEASE/spring-aop-4.1.9.RELEASE.jar:/Users/eduardocastillo/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/eduardocastillo/.m2/repository/org/springframework/spring-beans/4.1.9.RELEASE/spring-beans-4.1.9.RELEASE.jar:/Users/eduardocastillo/.m2/repository/org/springframework/spring-context/4.1.9.RELEASE/spring-context-4.1.9.RELEASE.jar:/Users/eduardocastillo/.m2/repository/org/springframework/spring-expression/4.1.9.RELEASE/spring-expression-4.1.9.RELEASE.jar:/Users/eduardocastillo/.m2/repository/org/springframework/spring-core/4.1.9.RELEASE/spring-core-4.1.9.RELEASE.jar:/Users/eduardocastillo/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/eduardocastillo/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/eduardocastillo/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="/Users/eduardocastillo/Documents/REST_TESJI/HelloWorldREST/target/surefire/surefirebooter9135993290901736695.jar /Users/eduardocastillo/Documents/REST_TESJI/HelloWorldREST/target/surefire/surefire796742495196004728tmp /Users/eduardocastillo/Documents/REST_TESJI/HelloWorldREST/target/surefire/surefire1118821584157629979tmp"/>
+    <property name="service.url" value="http://localhost:${test.server.port}/jaxrs-service"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="java.ext.dirs" value="/Users/eduardocastillo/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="/Users/eduardocastillo/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="org.tesji.rest.HelloWorldIT" name="testJsonRoundtrip" time="0.271">
+    <error message="java.lang.NumberFormatException: For input string: &quot;${test.server.port}&quot;" type="java.lang.RuntimeException">java.lang.RuntimeException: java.lang.NumberFormatException: For input string: &quot;${test.server.port}&quot;
+	at org.apache.cxf.jaxrs.client.JAXRSClientFactoryBean.createWebClient(JAXRSClientFactoryBean.java:232)
+	at org.apache.cxf.jaxrs.client.WebClient.create(WebClient.java:177)
+	at org.apache.cxf.jaxrs.client.WebClient.create(WebClient.java:136)
+	at org.tesji.rest.HelloWorldIT.testJsonRoundtrip(HelloWorldIT.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:119)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+Caused by: java.lang.NumberFormatException: For input string: &quot;${test.server.port}&quot;
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:569)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at org.apache.cxf.jaxrs.impl.UriBuilderImpl.uriAsTemplate(UriBuilderImpl.java:918)
+	at org.apache.cxf.jaxrs.client.WebClient.convertStringToURI(WebClient.java:1234)
+	at org.apache.cxf.jaxrs.client.WebClient.&lt;init&gt;(WebClient.java:89)
+	at org.apache.cxf.jaxrs.client.JAXRSClientFactoryBean.createWebClient(JAXRSClientFactoryBean.java:222)
+	... 33 more
+</error>
+  </testcase>
+  <testcase classname="org.tesji.rest.HelloWorldIT" name="testPing" time="0.001">
+    <error message="java.lang.NumberFormatException: For input string: &quot;${test.server.port}&quot;" type="java.lang.RuntimeException">java.lang.RuntimeException: java.lang.NumberFormatException: For input string: &quot;${test.server.port}&quot;
+	at org.apache.cxf.jaxrs.client.JAXRSClientFactoryBean.createWebClient(JAXRSClientFactoryBean.java:232)
+	at org.apache.cxf.jaxrs.client.WebClient.create(WebClient.java:111)
+	at org.tesji.rest.HelloWorldIT.testPing(HelloWorldIT.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:119)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+Caused by: java.lang.NumberFormatException: For input string: &quot;${test.server.port}&quot;
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:569)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at org.apache.cxf.jaxrs.impl.UriBuilderImpl.uriAsTemplate(UriBuilderImpl.java:918)
+	at org.apache.cxf.jaxrs.client.WebClient.convertStringToURI(WebClient.java:1234)
+	at org.apache.cxf.jaxrs.client.WebClient.&lt;init&gt;(WebClient.java:89)
+	at org.apache.cxf.jaxrs.client.JAXRSClientFactoryBean.createWebClient(JAXRSClientFactoryBean.java:222)
+	... 32 more
+</error>
+  </testcase>
+</testsuite>
